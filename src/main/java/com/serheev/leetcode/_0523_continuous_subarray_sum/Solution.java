@@ -97,21 +97,21 @@ public class Solution {
      * @return true if there exists a continuous subarray of length ≥ 2
      * whose sum is divisible by k (or equals 0 when k = 0), otherwise false
      */
-//    public boolean checkSubarraySum(int[] nums, int k) {
-//        for (int i = 0; i < nums.length; i++) {
-//            int sum = 0;
-//            for (int j = i; j < nums.length; j++) {
-//                sum += nums[j];
-//                if (j - i + 1 < 2) continue;
-//                if (k == 0) {
-//                    if (sum == 0) return true;
-//                } else {
-//                    if (sum % k == 0) return true;
-//                }
-//            }
-//        }
-//
-//        return false;
-//    }
+    public boolean checkSubarraySum_brute_force(int[] nums, int k) {
+        for (int i = 0; i < nums.length; i++) {
+            int sum = 0;
+            for (int j = i; j < nums.length; j++) {
+                sum += nums[j];
+                if (j - i + 1 < 2) continue;
+                if (k == 0) {
+                    if (sum == 0) return true;
+                } else {
+                    if (sum % k == 0) return true;
+                }
+            }
+        }
+
+        return false;
+    }
 
 }

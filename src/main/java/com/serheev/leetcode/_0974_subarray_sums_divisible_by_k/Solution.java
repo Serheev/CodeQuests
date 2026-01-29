@@ -74,20 +74,20 @@ public class Solution {
      * @param k    integer
      * @return the number of non-empty sub-arrays that have a sum divisible by k.
      */
-//    public int subarraysDivByK(int[] nums, int k) {
-//        int count = 0;
-//
-//        for (int i = 0; i < nums.length; i++) {
-//
-//            int prefix = 0;
-//            for (int j = i; j < nums.length; j++) {
-//                prefix += nums[j];
-//                if (prefix % k == 0) {
-//                    count++;
-//                }
-//            }
-//        }
-//
-//        return count;
-//    }
+    public int subarraysDivByK_brute_force(int[] nums, int k) {
+        int count = 0;
+
+        for (int i = 0; i < nums.length; i++) {
+
+            int prefix = 0;
+            for (int j = i; j < nums.length; j++) {
+                prefix += nums[j];
+                if (prefix % k == 0) {
+                    count++;
+                }
+            }
+        }
+
+        return count;
+    }
 }
