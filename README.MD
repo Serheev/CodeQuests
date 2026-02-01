@@ -14,4 +14,8 @@ All problems are divided into corresponding topics. You can find the conditions 
 + [76. Minimum Window Substring (hard)](src/main/java/com/serheev/leetcode/_0076_minimum_window_substring/Solution.java)
 + [424. Longest Repeating Character Replacement (medium)](src/main/java/com/serheev/leetcode/_0424_longest_repeating_character_replacement/Solution.java)
 + [904. Fruit Into Baskets (medium)](src/main/java/com/serheev/leetcode/_0904_fruit_into_baskets/Solution.java)
-+ [3477. Fruits Into Baskets II]()
+### Greedy + Intervals
++ [252. Meeting Rooms (easy)](src/main/java/com/serheev/leetcode/_0252_meeting_rooms/Solution.java)
++ [253. Meeting Rooms II (medium)](src/main/java/com/serheev/leetcode/_0253_meeting_rooms_ii/Solution.java)
++ [435. Non-overlapping Intervals (medium)](src/main/java/com/serheev/leetcode/_0435_non_overlapping_intervals/Solution.java)
++ [3477. Fruits Into Baskets II (easy)](src/main/java/com/serheev/leetcode/_3477_fruits_into_baskets_ii/Solution.java)

@@ -42,7 +42,7 @@ import java.util.Map;
  * If we had started at the first tree, we would only pick from trees [1,2].
  * <p>
  * Categories:
- * -
+ * - Sliding window
  */
 public class Solution {
 
