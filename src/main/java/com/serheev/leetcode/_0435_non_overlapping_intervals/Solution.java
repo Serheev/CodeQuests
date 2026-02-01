@@ -47,6 +47,47 @@ public class Solution {
     /**
      * Approach:
      * Sort all intervals by their end times in ascending order. Then iterate through the
+     * sorted list and compare each interval's start time with the end time of the last
+     * non-overlapping interval kept. If the current interval overlaps (its start is before
+     * the previous end), it must be removed and the removal counter is incremented. If it
+     * does not overlap, update the reference end time to the current interval's end.
+     * <p>
+     * Idea:
+     * To minimize the number of intervals removed, always keep the interval that finishes
+     * earliest. This greedy strategy maximizes the remaining space for future intervals
+     * and ensures the largest possible set of non-overlapping intervals. The number of
+     * intervals removed is simply the count of overlaps encountered during the scan.
+     * <p>
+     * Complexity:
+     * Time: O(n log n) — sorting the intervals dominates the runtime.
+     * Space: O(1) — sorting is done in place and no additional data structures are required.
+     *
+     * @param intervals array of intervals, where each interval is represented as [start, end]
+     * @return minimum number of intervals that must be removed to eliminate all overlaps
+     */
+    public int eraseOverlapIntervals(int[][] intervals) {
+        if (intervals.length == 0) return 0;
+
+        int res = 0;
+
+        Arrays.sort(intervals, (a, b) -> a[1] - b[1]);
+
+        int prev_end = intervals[0][1];
+
+        for (int i = 1; i < intervals.length; i++) {
+            if (prev_end > intervals[i][0]) {
+                res++;
+            } else {
+                prev_end = intervals[i][1];
+            }
+        }
+
+        return res;
+    }
+
+    /**
+     * Approach:
+     * Sort all intervals by their end times in ascending order. Then iterate through the
      * sorted list and greedily select intervals that do not overlap with the previously
      * chosen one. Each time an interval overlaps with the last selected interval, it must
      * be removed. The number of intervals removed equals the total number of intervals
@@ -66,7 +107,7 @@ public class Solution {
      * @param intervals array of intervals, where each interval is represented as [start, end]
      * @return minimum number of intervals that must be removed to eliminate all overlaps
      */
-    public int eraseOverlapIntervals(int[][] intervals) {
+    public int eraseOverlapIntervals_(int[][] intervals) {
         if (intervals.length == 0) return 0;
 
         Arrays.sort(intervals, Comparator.comparingInt(a -> a[1]));
