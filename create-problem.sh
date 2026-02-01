@@ -5,7 +5,7 @@ if [ -z "$1" ]; then
   exit 1
 fi
 
-TASK_DIR="$1"
+TASK_DIR="${1//-/_}"
 TASK_PKG="${TASK_DIR//\//.}"
 BASE_MAIN="src/main/java/com/serheev/${TASK_DIR}"
 BASE_TEST="src/test/java/com/serheev/${TASK_DIR}"
