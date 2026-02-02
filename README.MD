@@ -19,3 +19,5 @@ All problems are divided into corresponding topics. You can find the conditions 
 + [253. Meeting Rooms II (medium)](src/main/java/com/serheev/leetcode/_0253_meeting_rooms_ii/Solution.java)
 + [435. Non-overlapping Intervals (medium)](src/main/java/com/serheev/leetcode/_0435_non_overlapping_intervals/Solution.java)
 + [3477. Fruits Into Baskets II (easy)](src/main/java/com/serheev/leetcode/_3477_fruits_into_baskets_ii/Solution.java)
+### Two pointers
++[15. 3Sum (medium)](src/main/java/com/serheev/leetcode/_0015_3sum/Solution.java)
