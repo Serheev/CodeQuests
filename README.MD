@@ -22,3 +22,4 @@ All problems are divided into corresponding topics. You can find the conditions 
 ### Two pointers
 + [11. Container With Most Water (medium)](src/main/java/com/serheev/leetcode/_0011_container_with_most_water/Solution.java)
 + [15. 3Sum (medium)](src/main/java/com/serheev/leetcode/_0015_3sum/Solution.java)
++ [26. Remove Duplicates from Sorted Array (easy)](src/main/java/com/serheev/leetcode/_0026_remove_duplicates_from_sorted_array/Solution.java)
