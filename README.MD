@@ -24,6 +24,6 @@ All problems are divided into corresponding topics. You can find the conditions 
 + [15. 3Sum (medium)](src/main/java/com/serheev/leetcode/_0015_3sum/Solution.java)
 + [26. Remove Duplicates from Sorted Array (easy)](src/main/java/com/serheev/leetcode/_0026_remove_duplicates_from_sorted_array/Solution.java)
 ### Stack
-+[20. Valid Parentheses (easy)]()
-+[]()
-+[]()
++ [20. Valid Parentheses (easy)](src/main/java/com/serheev/leetcode/_0020_valid_parentheses/Solution.java)
++ [155. Min Stack (medium)](src/main/java/com/serheev/leetcode/_0155_min_stack/Solution.java)
++ []()
