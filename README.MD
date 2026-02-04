@@ -41,3 +41,8 @@ links below.
 + [20. Valid Parentheses (easy)](src/main/java/com/serheev/leetcode/_0020_valid_parentheses/Solution.java)
 + [155. Min Stack (medium)](src/main/java/com/serheev/leetcode/_0155_min_stack/Solution.java)
 + [739. Daily Temperatures (medium)](src/main/java/com/serheev/leetcode/_0739_daily_temperatures/Solution.java)
+
+### Advanced Stack
+
++ [84. Largest Rectangle in Histogram (hard)](src/main/java/com/serheev/leetcode/_0084_largest_rectangle_in_histogram/Solution.java)
++ []()
