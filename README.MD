@@ -46,3 +46,9 @@ links below.
 
 + [84. Largest Rectangle in Histogram (hard)](src/main/java/com/serheev/leetcode/_0084_largest_rectangle_in_histogram/Solution.java)
 + [42. Trapping Rain Water (hard)](src/main/java/com/serheev/leetcode/_0042_trapping_rain_water/Solution.java)
+
+### Binary Search
+
++ [704. Binary Search (easy)](src/main/java/com/serheev/leetcode/_0704_binary_search/Solution.java)
++ []()
++ []()
