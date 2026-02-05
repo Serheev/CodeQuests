@@ -50,5 +50,5 @@ links below.
 ### Binary Search
 
 + [704. Binary Search (easy)](src/main/java/com/serheev/leetcode/_0704_binary_search/Solution.java)
-+ []()
++ [35. Search Insert Position (easy)](src/main/java/com/serheev/leetcode/_0035_search_insert_position/Solution.java)
 + []()
