@@ -51,4 +51,4 @@ links below.
 
 + [704. Binary Search (easy)](src/main/java/com/serheev/leetcode/_0704_binary_search/Solution.java)
 + [35. Search Insert Position (easy)](src/main/java/com/serheev/leetcode/_0035_search_insert_position/Solution.java)
-+ []()
++ [33. Search in Rotated Sorted Array (medium)](src/main/java/com/serheev/leetcode/_0033_search_in_rotated_sorted_array/Solution.java)
