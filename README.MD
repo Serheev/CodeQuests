@@ -51,6 +51,7 @@ links below.
 
 + [35. Search Insert Position (easy)](src/main/java/com/serheev/leetcode/_0035_search_insert_position/Solution.java)
 + [33. Search in Rotated Sorted Array (medium)](src/main/java/com/serheev/leetcode/_0033_search_in_rotated_sorted_array/Solution.java)
++ [410. Split Array Largest Sum (hard)](src/main/java/com/serheev/leetcode/_0410_split_array_largest_sum/Solution.java)
 + [704. Binary Search (easy)](src/main/java/com/serheev/leetcode/_0704_binary_search/Solution.java) 
 + [875. Koko Eating Bananas (medium)](src/main/java/com/serheev/leetcode/_0875_koko_eating_bananas/Solution.java)
 + [1011. Capacity To Ship Packages Within D Days (medium)](src/main/java/com/serheev/leetcode/_1011_capacity_to_ship_packages_within_d_days/Solution.java)
