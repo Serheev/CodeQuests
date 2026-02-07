@@ -49,6 +49,7 @@ links below.
 
 ### Binary Search
 
++ [4. Median of Two Sorted Arrays (hard)](src/main/java/com/serheev/leetcode/_0004_median_of_two_sorted_arrays/Solution.java)
 + [35. Search Insert Position (easy)](src/main/java/com/serheev/leetcode/_0035_search_insert_position/Solution.java)
 + [33. Search in Rotated Sorted Array (medium)](src/main/java/com/serheev/leetcode/_0033_search_in_rotated_sorted_array/Solution.java)
 + [410. Split Array Largest Sum (hard)](src/main/java/com/serheev/leetcode/_0410_split_array_largest_sum/Solution.java)
