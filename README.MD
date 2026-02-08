@@ -56,3 +56,7 @@ links below.
 + [704. Binary Search (easy)](src/main/java/com/serheev/leetcode/_0704_binary_search/Solution.java) 
 + [875. Koko Eating Bananas (medium)](src/main/java/com/serheev/leetcode/_0875_koko_eating_bananas/Solution.java)
 + [1011. Capacity To Ship Packages Within D Days (medium)](src/main/java/com/serheev/leetcode/_1011_capacity_to_ship_packages_within_d_days/Solution.java)
+
+### Binary Trees
+
++ [104. Maximum Depth of Binary Tree (easy)](src/main/java/com/serheev/leetcode/_0104_maximum_depth_of_binary_tree/Solution.java)
