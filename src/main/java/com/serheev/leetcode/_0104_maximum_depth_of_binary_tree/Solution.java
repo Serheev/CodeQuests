@@ -82,7 +82,7 @@ public class Solution {
     public int maxDepth_recursive(TreeNode root) {
         if (root == null) return 0;
 
-        return 1 + Math.max(maxDepth(root.left), maxDepth(root.right));
+        return 1 + Math.max(maxDepth_recursive(root.left), maxDepth_recursive(root.right));
     }
 
     public static class TreeNode {
