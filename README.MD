@@ -68,5 +68,5 @@ links below.
 
 ### DFS/BFS
 + [200. Number of Islands (medium)](src/main/java/com/serheev/leetcode/_0200_number_of_islands/Solution.java)
-+ []()
++ [695. Max Area of Island (medium)](src/main/java/com/serheev/leetcode/_0695_max_area_of_island/Solution.java)
 + []()
