@@ -66,3 +66,7 @@ links below.
 + [543. Diameter of Binary Tree (easy)](src/main/java/com/serheev/leetcode/_0543_diameter_of_binary_tree/Solution.java)
 + [236. Lowest Common Ancestor of a Binary Tree (medium)](src/main/java/com/serheev/leetcode/_0236_lowest_common_ancestor_of_a_binary_tree/Solution.java)
 
+### DFS/BFS
++ [200. Number of Islands (medium)](src/main/java/com/serheev/leetcode/_0200_number_of_islands/Solution.java)
++ []()
++ []()
