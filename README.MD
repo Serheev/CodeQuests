@@ -59,10 +59,10 @@ links below.
 
 ### Binary Trees
 
++ [98. Validate Binary Search Tree (medium)](src/main/java/com/serheev/leetcode/_0098_validate_binary_search_tree/Solution.java)
 + [104. Maximum Depth of Binary Tree (easy)](src/main/java/com/serheev/leetcode/_0104_maximum_depth_of_binary_tree/Solution.java)
 + [110. Balanced Binary Tree (easy)](src/main/java/com/serheev/leetcode/_0110_balanced_binary_tree/Solution.java)
 + [543. Diameter of Binary Tree (easy)](src/main/java/com/serheev/leetcode/_0543_diameter_of_binary_tree/Solution.java)
 + [236. Lowest Common Ancestor of a Binary Tree (medium)](src/main/java/com/serheev/leetcode/_0236_lowest_common_ancestor_of_a_binary_tree/Solution.java)
-+ []()
 + []()
 
