@@ -1,7 +1,7 @@
 #!/bin/bash
 
 if [ -z "$1" ]; then
-  echo "Usage: ./create_problem.sh leetcode/_0XXX_problem_name"
+  echo "Usage: ./create-problem.sh leetcode/_0XXX_problem_name"
   exit 1
 fi
 
